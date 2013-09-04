@@ -1,0 +1,21 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"GitGutter",
+		"HtmlTidy",
+		"JsFormat",
+		"Lazy Backbone.js",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeLinter",
+		"Theme - Flatland",
+		"Twitter Bootstrap Snippets"
+	]
+}

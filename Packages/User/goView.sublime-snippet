@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+/* global define, Backbone, _ */
+define([
+		'text!../templates/${1:ComponentName}ViewTemplate.html',
+		'backbone'
+],
+
+function(viewTemplate, lang, on, Backbone) {
+	var ${1:ComponentName} = Backbone.View.extend({
+
+		initialize: function() {
+			this.render();
+		},
+
+		render: function() {
+			var template = _.template(viewTemplate)();
+			this.$el.html(template);
+
+			// Append ${1:ComponentName} to its anchor
+			this.options.anchor.append(this.$el);
+		}
+	});
+	return ${1:ComponentName};
+});
+
+]]></content>
+	<tabTrigger>goview</tabTrigger>
+	<description>Josh's Component View</description>
+</snippet>
